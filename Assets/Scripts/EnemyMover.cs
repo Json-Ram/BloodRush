@@ -72,8 +72,8 @@ public class EnemyMover : MonoBehaviour
                 transform.position = Vector3.Lerp(startPosition, endPosition, travelPercent);
                 yield return new WaitForEndOfFrame();
             }
-
         }
+        
         FinishPath();
     }
 }

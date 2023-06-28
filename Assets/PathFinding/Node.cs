@@ -16,6 +16,5 @@ public class Node
         this.coordinates = coordinates;
         this.isWalkable = isWalkable;    
     }
-
 }
 
