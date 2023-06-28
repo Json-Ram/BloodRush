@@ -8269,6 +8269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: (20, 12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6942445118833529606, guid: 221aa62b9d4a2446e9ef00865b032da3, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 221aa62b9d4a2446e9ef00865b032da3, type: 3}
 --- !u!4 &762893992 stripped
@@ -8457,6 +8461,10 @@ PrefabInstance:
     - target: {fileID: 5985447624568894179, guid: 221aa62b9d4a2446e9ef00865b032da3, type: 3}
       propertyPath: m_Name
       value: (0, 2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942445118833529606, guid: 221aa62b9d4a2446e9ef00865b032da3, type: 3}
+      propertyPath: isPlaceable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 221aa62b9d4a2446e9ef00865b032da3, type: 3}
@@ -10934,8 +10942,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02615ee528ad340939a13c8d1f90aaea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startCoordinates: {x: 5, y: 5}
-  destinationCoordinates: {x: 1, y: 1}
+  startCoordinates: {x: 0, y: 2}
+  destinationCoordinates: {x: 20, y: 12}
 --- !u!1001 &977924256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14909,7 +14917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e09e7a4db17b4dde94ba259176d85e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 10, y: 10}
+  gridSize: {x: 23, y: 23}
   unityGridSize: 10
 --- !u!4 &1373300790
 Transform:
@@ -22935,6 +22943,10 @@ PrefabInstance:
       propertyPath: displayBalance
       value: 
       objectReference: {fileID: 1088264653}
+    - target: {fileID: 2869226537215109559, guid: 053a047d5d82a4105a9d0e491c6955cd, type: 3}
+      propertyPath: startingBalance
+      value: 300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 053a047d5d82a4105a9d0e491c6955cd, type: 3}
 --- !u!1001 &3400203488606548759
@@ -22990,7 +23002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3400203488830758404, guid: 4224d032a94bd4964aaedfdfb8ab60df, type: 3}
       propertyPath: poolSize
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3400203488830758405, guid: 4224d032a94bd4964aaedfdfb8ab60df, type: 3}
       propertyPath: m_Name
